@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4DE44CF2E0FA0AA00A7B29A /* ChaChing Brand Matcher Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A4DE44CE2E0FA0AA00A7B29A /* ChaChing Brand Matcher Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A4DE45952E0FC24700A7B29A /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = A4DE45942E0FC24700A7B29A /* Resources */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4DE44B92E0FA0AA00A7B29A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4DE44942E0FA0A800A7B29A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4DE449B2E0FA0A800A7B29A;
+			remoteInfo = "ChaChing Brand Matcher";
+		};
+		A4DE44C32E0FA0AA00A7B29A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4DE44942E0FA0A800A7B29A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4DE449B2E0FA0A800A7B29A;
+			remoteInfo = "ChaChing Brand Matcher";
+		};
+		A4DE44D02E0FA0AA00A7B29A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4DE44942E0FA0A800A7B29A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4DE44CD2E0FA0AA00A7B29A;
+			remoteInfo = "ChaChing Brand Matcher Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A4DE44EE2E0FA0AA00A7B29A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A4DE44CF2E0FA0AA00A7B29A /* ChaChing Brand Matcher Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A4DE449C2E0FA0A800A7B29A /* ChaChing Brand Matcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChaChing Brand Matcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DE44B82E0FA0AA00A7B29A /* ChaChing Brand MatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChaChing Brand MatcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DE44C22E0FA0AA00A7B29A /* ChaChing Brand MatcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChaChing Brand MatcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DE44CE2E0FA0AA00A7B29A /* ChaChing Brand Matcher Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ChaChing Brand Matcher Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DE45692E0FB9ED00A7B29A /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resources; path = "ChaChing Brand Matcher/Resources"; sourceTree = "<group>"; };
+		A4DE45942E0FC24700A7B29A /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resources; path = "ChaChing Brand Matcher/Resources"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A4DE44E82E0FA0AA00A7B29A /* Exceptions for "ChaChing Brand Matcher Extension" folder in "ChaChing Brand Matcher Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A4DE44CD2E0FA0AA00A7B29A /* ChaChing Brand Matcher Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A4DE449E2E0FA0A800A7B29A /* ChaChing Brand Matcher */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ChaChing Brand Matcher";
+			sourceTree = "<group>";
+		};
+		A4DE44BB2E0FA0AA00A7B29A /* ChaChing Brand MatcherTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ChaChing Brand MatcherTests";
+			sourceTree = "<group>";
+		};
+		A4DE44C52E0FA0AA00A7B29A /* ChaChing Brand MatcherUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ChaChing Brand MatcherUITests";
+			sourceTree = "<group>";
+		};
+		A4DE44D22E0FA0AA00A7B29A /* ChaChing Brand Matcher Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A4DE44E82E0FA0AA00A7B29A /* Exceptions for "ChaChing Brand Matcher Extension" folder in "ChaChing Brand Matcher Extension" target */,
+			);
+			path = "ChaChing Brand Matcher Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4DE44992E0FA0A800A7B29A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DE44B52E0FA0AA00A7B29A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DE44BF2E0FA0AA00A7B29A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DE44CB2E0FA0AA00A7B29A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4DE44932E0FA0A800A7B29A = {
+			isa = PBXGroup;
+			children = (
+				A4DE45692E0FB9ED00A7B29A /* Resources */,
+				A4DE45942E0FC24700A7B29A /* Resources */,
+				A4DE449E2E0FA0A800A7B29A /* ChaChing Brand Matcher */,
+				A4DE44BB2E0FA0AA00A7B29A /* ChaChing Brand MatcherTests */,
+				A4DE44C52E0FA0AA00A7B29A /* ChaChing Brand MatcherUITests */,
+				A4DE44D22E0FA0AA00A7B29A /* ChaChing Brand Matcher Extension */,
+				A4DE449D2E0FA0A800A7B29A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4DE449D2E0FA0A800A7B29A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE449C2E0FA0A800A7B29A /* ChaChing Brand Matcher.app */,
+				A4DE44B82E0FA0AA00A7B29A /* ChaChing Brand MatcherTests.xctest */,
+				A4DE44C22E0FA0AA00A7B29A /* ChaChing Brand MatcherUITests.xctest */,
+				A4DE44CE2E0FA0AA00A7B29A /* ChaChing Brand Matcher Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4DE449B2E0FA0A800A7B29A /* ChaChing Brand Matcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DE44EF2E0FA0AA00A7B29A /* Build configuration list for PBXNativeTarget "ChaChing Brand Matcher" */;
+			buildPhases = (
+				A4DE44982E0FA0A800A7B29A /* Sources */,
+				A4DE44992E0FA0A800A7B29A /* Frameworks */,
+				A4DE449A2E0FA0A800A7B29A /* Resources */,
+				A4DE44EE2E0FA0AA00A7B29A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4DE44D12E0FA0AA00A7B29A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A4DE449E2E0FA0A800A7B29A /* ChaChing Brand Matcher */,
+			);
+			name = "ChaChing Brand Matcher";
+			packageProductDependencies = (
+			);
+			productName = "ChaChing Brand Matcher";
+			productReference = A4DE449C2E0FA0A800A7B29A /* ChaChing Brand Matcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4DE44B72E0FA0AA00A7B29A /* ChaChing Brand MatcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DE44F22E0FA0AA00A7B29A /* Build configuration list for PBXNativeTarget "ChaChing Brand MatcherTests" */;
+			buildPhases = (
+				A4DE44B42E0FA0AA00A7B29A /* Sources */,
+				A4DE44B52E0FA0AA00A7B29A /* Frameworks */,
+				A4DE44B62E0FA0AA00A7B29A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4DE44BA2E0FA0AA00A7B29A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A4DE44BB2E0FA0AA00A7B29A /* ChaChing Brand MatcherTests */,
+			);
+			name = "ChaChing Brand MatcherTests";
+			packageProductDependencies = (
+			);
+			productName = "ChaChing Brand MatcherTests";
+			productReference = A4DE44B82E0FA0AA00A7B29A /* ChaChing Brand MatcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4DE44C12E0FA0AA00A7B29A /* ChaChing Brand MatcherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DE44F52E0FA0AA00A7B29A /* Build configuration list for PBXNativeTarget "ChaChing Brand MatcherUITests" */;
+			buildPhases = (
+				A4DE44BE2E0FA0AA00A7B29A /* Sources */,
+				A4DE44BF2E0FA0AA00A7B29A /* Frameworks */,
+				A4DE44C02E0FA0AA00A7B29A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4DE44C42E0FA0AA00A7B29A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A4DE44C52E0FA0AA00A7B29A /* ChaChing Brand MatcherUITests */,
+			);
+			name = "ChaChing Brand MatcherUITests";
+			packageProductDependencies = (
+			);
+			productName = "ChaChing Brand MatcherUITests";
+			productReference = A4DE44C22E0FA0AA00A7B29A /* ChaChing Brand MatcherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A4DE44CD2E0FA0AA00A7B29A /* ChaChing Brand Matcher Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DE44E92E0FA0AA00A7B29A /* Build configuration list for PBXNativeTarget "ChaChing Brand Matcher Extension" */;
+			buildPhases = (
+				A4DE44CA2E0FA0AA00A7B29A /* Sources */,
+				A4DE44CB2E0FA0AA00A7B29A /* Frameworks */,
+				A4DE44CC2E0FA0AA00A7B29A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A4DE44D22E0FA0AA00A7B29A /* ChaChing Brand Matcher Extension */,
+			);
+			name = "ChaChing Brand Matcher Extension";
+			packageProductDependencies = (
+			);
+			productName = "ChaChing Brand Matcher Extension";
+			productReference = A4DE44CE2E0FA0AA00A7B29A /* ChaChing Brand Matcher Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4DE44942E0FA0A800A7B29A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A4DE449B2E0FA0A800A7B29A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A4DE44B72E0FA0AA00A7B29A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A4DE449B2E0FA0A800A7B29A;
+					};
+					A4DE44C12E0FA0AA00A7B29A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A4DE449B2E0FA0A800A7B29A;
+					};
+					A4DE44CD2E0FA0AA00A7B29A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = A4DE44972E0FA0A800A7B29A /* Build configuration list for PBXProject "ChaChing Brand Matcher" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4DE44932E0FA0A800A7B29A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A4DE449D2E0FA0A800A7B29A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4DE449B2E0FA0A800A7B29A /* ChaChing Brand Matcher */,
+				A4DE44B72E0FA0AA00A7B29A /* ChaChing Brand MatcherTests */,
+				A4DE44C12E0FA0AA00A7B29A /* ChaChing Brand MatcherUITests */,
+				A4DE44CD2E0FA0AA00A7B29A /* ChaChing Brand Matcher Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4DE449A2E0FA0A800A7B29A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DE44B62E0FA0AA00A7B29A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DE44C02E0FA0AA00A7B29A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DE44CC2E0FA0AA00A7B29A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DE45952E0FC24700A7B29A /* Resources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4DE44982E0FA0A800A7B29A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DE44B42E0FA0AA00A7B29A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DE44BE2E0FA0AA00A7B29A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DE44CA2E0FA0AA00A7B29A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4DE44BA2E0FA0AA00A7B29A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4DE449B2E0FA0A800A7B29A /* ChaChing Brand Matcher */;
+			targetProxy = A4DE44B92E0FA0AA00A7B29A /* PBXContainerItemProxy */;
+		};
+		A4DE44C42E0FA0AA00A7B29A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4DE449B2E0FA0A800A7B29A /* ChaChing Brand Matcher */;
+			targetProxy = A4DE44C32E0FA0AA00A7B29A /* PBXContainerItemProxy */;
+		};
+		A4DE44D12E0FA0AA00A7B29A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4DE44CD2E0FA0AA00A7B29A /* ChaChing Brand Matcher Extension */;
+			targetProxy = A4DE44D02E0FA0AA00A7B29A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4DE44EA2E0FA0AA00A7B29A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ChaChing Brand Matcher Extension/ChaChing_Brand_Matcher_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U6Q2ZK6XD4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ChaChing Brand Matcher Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ChaChing Brand Matcher Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MHS.ChaChing-Brand-Matcher.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A4DE44EB2E0FA0AA00A7B29A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ChaChing Brand Matcher Extension/ChaChing_Brand_Matcher_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U6Q2ZK6XD4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ChaChing Brand Matcher Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ChaChing Brand Matcher Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MHS.ChaChing-Brand-Matcher.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A4DE44EC2E0FA0AA00A7B29A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4DE44ED2E0FA0AA00A7B29A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A4DE44F02E0FA0AA00A7B29A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ChaChing Brand Matcher/ChaChing Brand Matcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U6Q2ZK6XD4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ChaChing Brand Matcher";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MHS.ChaChing-Brand-Matcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A4DE44F12E0FA0AA00A7B29A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ChaChing Brand Matcher/ChaChing Brand Matcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U6Q2ZK6XD4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ChaChing Brand Matcher";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MHS.ChaChing-Brand-Matcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A4DE44F32E0FA0AA00A7B29A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U6Q2ZK6XD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MHS.ChaChing-Brand-MatcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChaChing Brand Matcher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChaChing Brand Matcher";
+			};
+			name = Debug;
+		};
+		A4DE44F42E0FA0AA00A7B29A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U6Q2ZK6XD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MHS.ChaChing-Brand-MatcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChaChing Brand Matcher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChaChing Brand Matcher";
+			};
+			name = Release;
+		};
+		A4DE44F62E0FA0AA00A7B29A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U6Q2ZK6XD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MHS.ChaChing-Brand-MatcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ChaChing Brand Matcher";
+			};
+			name = Debug;
+		};
+		A4DE44F72E0FA0AA00A7B29A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U6Q2ZK6XD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MHS.ChaChing-Brand-MatcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ChaChing Brand Matcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4DE44972E0FA0A800A7B29A /* Build configuration list for PBXProject "ChaChing Brand Matcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DE44EC2E0FA0AA00A7B29A /* Debug */,
+				A4DE44ED2E0FA0AA00A7B29A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DE44E92E0FA0AA00A7B29A /* Build configuration list for PBXNativeTarget "ChaChing Brand Matcher Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DE44EA2E0FA0AA00A7B29A /* Debug */,
+				A4DE44EB2E0FA0AA00A7B29A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DE44EF2E0FA0AA00A7B29A /* Build configuration list for PBXNativeTarget "ChaChing Brand Matcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DE44F02E0FA0AA00A7B29A /* Debug */,
+				A4DE44F12E0FA0AA00A7B29A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DE44F22E0FA0AA00A7B29A /* Build configuration list for PBXNativeTarget "ChaChing Brand MatcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DE44F32E0FA0AA00A7B29A /* Debug */,
+				A4DE44F42E0FA0AA00A7B29A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DE44F52E0FA0AA00A7B29A /* Build configuration list for PBXNativeTarget "ChaChing Brand MatcherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DE44F62E0FA0AA00A7B29A /* Debug */,
+				A4DE44F72E0FA0AA00A7B29A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4DE44942E0FA0A800A7B29A /* Project object */;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="../Style.css">
+    <script src="../Script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="../Icon.png" width="120" height="120" alt="ChaChing Brand Matcher Icon">
+        </div>
+        
+        <div class="state-unknown">
+            <h1>Almost done!</h1>
+            <p class="subtitle">Complete these steps to start using ChaChing:</p>
+            
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Go to <span class="highlight">Extension Settings</span>.</h3>
+                        <p>Check the box next to ChaChing to enable it.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Select <strong>Always Allow on Every Website</strong></h3>
+                        <p>so we can find deals everywhere there's Cash Back.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="safari-preview">
+                <div class="safari-window">
+                    <div class="safari-header">
+                        <div class="window-controls">
+                            <span class="control red"></span>
+                            <span class="control yellow"></span>
+                            <span class="control green"></span>
+                        </div>
+                        <div class="safari-title">Extensions</div>
+                    </div>
+                    <div class="safari-content">
+                        <div class="extension-item">
+                            <div class="checkbox checked"></div>
+                            <img src="../Icon.png" class="extension-icon" alt="ChaChing icon">
+                            <span class="extension-name">ChaChing Brand Matcher</span>
+                        </div>
+                        <div class="permission-section">
+                            <div class="permission-label">Private Browsing:</div>
+                            <div class="permission-option">
+                                <div class="radio"></div>
+                                <span>Allow in Private Browsing</span>
+                            </div>
+                            <div class="permission-label">Permissions:</div>
+                            <div class="permission-option">
+                                <div class="radio"></div>
+                                <span>Webpage Contents and Browsing History</span>
+                            </div>
+                            <div class="permission-info">
+                                When you use the "ChaChing Brand Matcher" toolbar button, the extension may request access
+                                to read and alter webpages and to see your browsing history. Granting access may be
+                                required for the extension to function.
+                            </div>
+                            <div class="permission-setting">
+                                <span>You have not allowed this extension on any websites yet.</span>
+                                <button class="edit-button">Edit Websites...</button>
+                            </div>
+                            <div class="allow-section">
+                                <button class="allow-button highlighted">Always Allow on Every Website...</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="open-preferences primary large">Go to Extension Settings</button>
+        </div>
+        
+        <div class="state-on">
+            <div class="success-icon">✅</div>
+            <h1>You're all set!</h1>
+            <p class="subtitle">ChaChing is active and ready to save you money</p>
+            
+            <div class="success-message">
+                <h3>What happens next?</h3>
+                <ul>
+                    <li>Shop at any of our 3,700+ partner stores</li>
+                    <li>ChaChing will automatically detect cash back opportunities</li>
+                    <li>Click our notification to activate your savings</li>
+                </ul>
+            </div>
+            
+            <div class="cta-buttons">
+                <a href="https://chaching.me" class="button primary">Start Shopping</a>
+                <button class="open-preferences secondary">Manage Extension</button>
+            </div>
+        </div>
+        
+        <div class="state-off">
+            <div class="warning-icon">⚠️</div>
+            <h1>ChaChing is currently disabled</h1>
+            <p class="subtitle">Enable the extension to start earning cash back</p>
+            
+            <div class="help-message">
+                <p>It looks like the extension was turned off. Click below to re-enable it and start saving money on your online purchases.</p>
+            </div>
+            
+            <button class="open-preferences primary">Enable ChaChing Extension</button>
+            
+            <div class="troubleshooting">
+                <p>Need help? <a href="https://chaching.me/help">Visit our support center</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
