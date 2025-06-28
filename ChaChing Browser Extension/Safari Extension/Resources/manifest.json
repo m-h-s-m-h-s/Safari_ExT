@@ -1,0 +1,52 @@
+{
+  "manifest_version": 3,
+  "name": "ChaChing Browser Extension",
+  "version": "2.3.0",
+  "description": "Find the best Cash Back deals from ChaChing so you don't lose out no matter where you shop online.",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "notifications",
+    "scripting",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "background": {
+    "scripts": [ "main.js" ]
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Find cashback deals on Chaching"
+  },
+  "icons": {
+    "16": "ChaChing_Logo_16.png",
+    "48": "ChaChing_Logo_48.png",
+    "128": "ChaChing_Logo_128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "ChaChing_Logo.png",
+        "ChaChing_Logo_16.png",
+        "ChaChing_Logo_48.png",
+        "ChaChing_Logo_128.png",
+        "BrandList.csv",
+        "src/data/excluded-domains.json",
+        "content_styles.css",
+        "utils.js",
+        "brands.js",
+        "brand-detector.js",
+        "pdp-detector.js",
+        "content_main.js",
+        "runner.js",
+        "popup.js",
+        "styles.css"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+} 
